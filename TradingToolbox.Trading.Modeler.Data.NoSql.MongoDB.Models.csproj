@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Authors>Trading Toolbox</Authors>
+    <Copyright>Copyright 2021 © Ben Visintainer. All rights reserved.</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageOutputPath>../../NuGet-Packages</PackageOutputPath>
+    <ReleaseVersion>5.0.0</ReleaseVersion>
+    <PackageVersion>5.0.0</PackageVersion>
+    <Description>Trading Modeler domain models.</Description>
+    <PackageOutputPath>../NuGet-Packages</PackageOutputPath>
+    <PackOnBuild>true</PackOnBuild>
+    <RootNamespace>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models</RootNamespace>
+    <AssemblyName>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.20.0" />
+    <PackageReference Include="TradingToolbox.System.Data.NoSql.MongoDB.Models" Version="4.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MongoDB.Bson" />
+    <None Remove="TradingToolbox.System.Data.NoSql.MongoDB.Models" />
+    <None Remove="README.md" />
+  </ItemGroup>
+</Project>
