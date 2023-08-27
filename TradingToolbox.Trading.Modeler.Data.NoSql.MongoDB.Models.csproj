@@ -6,10 +6,10 @@
     <Copyright>Copyright 2021 © Ben Visintainer. All rights reserved.</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageOutputPath>../../NuGet-Packages</PackageOutputPath>
-    <ReleaseVersion>5.0.0</ReleaseVersion>
-    <PackageVersion>5.0.0</PackageVersion>
+    <ReleaseVersion>5.0.1</ReleaseVersion>
+    <PackageVersion>5.0.1</PackageVersion>
     <Description>Trading Modeler domain models.</Description>
-    <PackageOutputPath>../NuGet-Packages</PackageOutputPath>
+    <PackageOutputPath>../../NuGet-Packages</PackageOutputPath>
     <PackOnBuild>true</PackOnBuild>
     <RootNamespace>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models</RootNamespace>
     <AssemblyName>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models</AssemblyName>
@@ -22,8 +22,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MongoDB.Bson" Version="2.20.0" />
-    <PackageReference Include="TradingToolbox.System.Data.NoSql.MongoDB.Models" Version="4.0.0" />
+    <PackageReference Include="MongoDB.Bson" Version="2.21.0" />
+    <PackageReference Include="TradingToolbox.System.Data.NoSql.MongoDB.Models" Version="5.0.1" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="MongoDB.Bson" />
