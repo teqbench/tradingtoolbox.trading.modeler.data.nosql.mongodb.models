@@ -1,7 +1,7 @@
 # Trading Modeler MongoDB Models
 
 ## Overview
-Trade Position Modeler domain models for MongoDB
+Trade Position Modeler domain models for MongoDB.
 
 # Contents
 - [Developer Environment Setup](#Developer+Environment+Setup)
