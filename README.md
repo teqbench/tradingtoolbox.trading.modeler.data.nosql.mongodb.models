@@ -1,7 +1,7 @@
-# Trading Toolbox - Trading Modeler Data NoSql MongoDB Models
+# Trading Modeler MongoDB Models
 
 ## Overview
-Trade Position Modeler domain models.
+Trade Position Modeler domain models for MongoDB
 
 # Contents
 - [Developer Environment Setup](#Developer+Environment+Setup)
@@ -33,7 +33,7 @@ dotnet add package TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models
 
 ## Update Source Code
 > [!NOTE]
-> For complete usage, see TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services
+> For complete usage, see [TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services](https://github.com/trading-toolbox/tradingtoolbox.trading.modeler.data.nosql.mongodb.services)
 
 ```csharp
 /// <summary>
