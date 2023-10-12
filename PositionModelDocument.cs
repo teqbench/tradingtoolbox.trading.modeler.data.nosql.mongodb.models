@@ -1,7 +1,7 @@
 ﻿using System;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
-using TradingToolbox.System.Data.NoSql.MongoDB.Models;
+using TeqBench.System.Data.NoSql.MongoDB.Models;
 
 namespace TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models
 {
