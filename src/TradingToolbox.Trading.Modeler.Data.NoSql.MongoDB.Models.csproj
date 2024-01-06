@@ -11,9 +11,10 @@
 		<Description>Trading Modeler domain models.</Description>
 		<RootNamespace>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models</RootNamespace>
 		<AssemblyName>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models</AssemblyName>
+		<ReleaseVersion></ReleaseVersion>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="MongoDB.Bson" Version="2.23.1" />
-		<PackageReference Include="TeqBench.System.Data.NoSql.MongoDB.Models" Version="3.0.0" />
+		<PackageReference Include="TeqBench.System.Data.NoSql.MongoDB.Models" Version="3.0.1" />
 	</ItemGroup>
 </Project>

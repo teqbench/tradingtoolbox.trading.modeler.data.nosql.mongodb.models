@@ -15,9 +15,17 @@ namespace TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models
         /// <summary>
         /// Initializes a new instance of the <see cref="PositionModelDocument"/> class.
         /// </summary>
-        public PositionModelDocument()
+        public PositionModelDocument() : base()
         {
-        } 
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="PositionModelDocument"/> class with the supplied Id.
+        /// </summary>
+        /// <param name="id">The document Id to initialize the instance with.</param>
+        public PositionModelDocument(string? id) : base(id)
+        {
+        }
         #endregion
 
         /// <summary>
@@ -26,7 +34,7 @@ namespace TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models
         /// <value>
         /// The name of the position model.
         /// </value>
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         /// <summary>
         /// Gets or sets the initial position value.
