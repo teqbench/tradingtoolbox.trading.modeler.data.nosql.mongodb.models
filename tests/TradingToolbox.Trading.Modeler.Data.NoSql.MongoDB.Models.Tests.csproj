@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<!--
 	Import common project file settings via teqbench.dev submodule.
@@ -7,10 +7,13 @@
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Config.props" />
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Test.Project.Config.props" />
 	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Test.Coverage.props" />
+	<PropertyGroup>
+	  <ReleaseVersion></ReleaseVersion>
+	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
-		<PackageReference Include="MSTest.TestAdapter" Version="3.0.4" />
-		<PackageReference Include="MSTest.TestFramework" Version="3.0.4" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+		<PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
+		<PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\src\TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models.csproj" />
